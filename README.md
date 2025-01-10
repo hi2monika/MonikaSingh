@@ -1,4 +1,4 @@
-# Tech Artical By @MonikaSingh
+# Tech Article By @MonikaSingh
 
 
 
