@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Stylesheet Download Tests</title>
+	
+	<!-- test page includes 	-->
+	<link rel="stylesheet" href="inc/bootstrap.css">
+	<style>
+		body { margin: 50px auto; max-width: 70em }
+		h1 {margin: .6em;}
+		p { font-size: 1.3em; font-weight: normal; line-height: 1.4; margin: 1em; }
+		table { width: 100% !important; margin: 1.3em; }
+	</style>
+
+
+
+	<!-- stylesheet download tests:
+		Note: these will 404 and that's okay. 
+		The point is to monitor HTTP traffic and see which ones are requested.
+	-->
+	
+	<!-- common media-query-support-only flag (only all) -->
+	<link href="inc/only-all.css" rel="stylesheet" media="only all">
+	
+	<!-- very wide viewport width -->
+	<link href="inc/min-width-4000px.css" rel="stylesheet" media="(min-width: 4000px)">
+	
+	<!-- former, with only keyword -->
+	<link href="inc/only-all-and-min-width-4000px.css" rel="stylesheet" media="only all and (min-width: 4000px)">
+	
+	<!-- very wide device width -->
+	<link href="inc/min-device-width-4000px.css" rel="stylesheet" media="(min-device-width: 4000px)">
+	
+	<!-- former, with only keyword -->
+	<link href="inc/only-all-and-min-device-width-4000px.css" rel="stylesheet" media="only all and (min-device-width: 4000px)">
+	
+	<!-- very high screen dpi -->
+	<link href="inc/min-device-pixel-ratio-6.css" rel="stylesheet" media="(min-device-pixel-ratio: 6)">
+	
+	<!-- former, with only keyword -->
+	<link href="inc/only-all-and-min-device-pixel-ratio-6.css" rel="stylesheet" media="only all and (min-device-pixel-ratio: 6)">
+	
+	<!-- tv query -->
+	<link href="inc/tv.css" rel="stylesheet" media="tv">
+
+	<!-- handheld query -->
+	<link href="inc/handheld.css" rel="stylesheet" media="handheld">
+	
+	<!-- nonsense query -->
+	<link href="inc/nonsense.css" rel="stylesheet" media="nonsense">
+
+</head>
+<body>
+		<h1>Api Security Best Practices</h1>
+		
+		<p class="alert-message success">By <a href="http://github.com/MonikaSingh">@MonikaSingh</a></p>
+		<ul>
+            <li><strong>Use Strong Authentication and Authorization:</strong> Implement multi-factor authentication (MFA) and ensure proper handling of user authentication and authorization.</li>
+            <li><strong>Encrypt Data:</strong> Encrypt all API requests and responses, and use encrypted transport for data transmission. Implement HTTP Strict Transport Security (HSTS) where possible.</li>
+            <li><strong>Rate Limiting and Throttling:</strong> Apply rate limiting and throttling to prevent abuse and ensure fair usage of your API.</li>
+            <li><strong>Input Validation:</strong> Validate all inputs to prevent injection attacks and other malicious activities.</li>
+            <li><strong>Use API Gateways:</strong> Utilize API gateways to manage and secure API traffic, enforce policies, and monitor usage.</li>
+            <li><strong>Regular Security Testing:</strong> Conduct regular security testing, including penetration testing and vulnerability assessments, to identify and fix potential issues.</li>
+            <li><strong>Keep Documentation Up to Date:</strong> Maintain up-to-date API documentation and versioning to ensure developers are aware of the latest security practices.</li>
+            <li><strong>Monitor and Log API Activity:</strong> Implement real-time monitoring and logging to detect and respond to suspicious activities.</li>
+            <li><strong>Secure API Keys and Tokens:</strong> Manage API keys and tokens securely, and rotate them regularly to minimize the risk of unauthorized access.</li>
+            <li><strong>Implement Least Privilege Principle:</strong> Ensure that API endpoints only have the minimum permissions necessary to perform their functions.</li>
+          </ul>
+          <p>By following these best practices, you can significantly enhance the security of your APIs and protect your data from potential threats.</p>
+		
+
+	
+
+</body>
+</html>
