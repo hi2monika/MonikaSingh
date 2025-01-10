@@ -1,7 +1,3 @@
-# CSS Downloads by Media Query
+# Api Security
 
-Testing stylesheet downloads per inapplicable media queries.
-
-A test by @scottjehl
-
-- [Test page over here](http://scottjehl.github.com/CSS-Download-Tests/)
+A artical by @monika Singh
