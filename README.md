@@ -1,7 +1,7 @@
-# CSS Downloads by Media Query
+# Tech Artical By @MonikaSingh
 
-Testing stylesheet downloads per inapplicable media queries.
 
-A test by @scottjehl
 
-- [Test page over here](http://scottjehl.github.com/CSS-Download-Tests/)
+A technology enthusiast who experiences a daily surge of adrenaline through problem-solving.
+
+- [API security best practices](http://scottjehl.github.com/API-security-best-practices.html]/)
