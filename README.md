@@ -1,3 +1,3 @@
 # Api Security
 
-A artical by @monika Singh
+Artical by @monika Singh
